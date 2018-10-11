@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Sport()
+comment1.params=sportName\ usagefee\ insurance\ affiliation_fees\ courts
+comment1.target=Sport(java.lang.String,\ double,\ double,\ double,\ java.util.ArrayList)
+comment2.params=
+comment2.target=int\ getDuration()
+comment2.text=\r\n\ Method\ returns\ the\ duration\ of\ the\ booking\r\n\ @return\ duration\r\n
+comment3.params=
+comment3.target=double\ getUsageFee()
+comment3.text=\r\n\ Method\ returns\ the\ Useage\ fee\ of\ the\ booking\r\n\ @return\ usagefee\r\n
+comment4.params=
+comment4.target=double\ getInsuranceFee()
+comment4.text=\r\n\ Method\ returns\ the\ insurance\ fee\ of\ the\ booking\r\n\ @return\ insurance\ \r\n
+comment5.params=
+comment5.target=double\ getAffiliationFee()
+comment5.text=\r\n\ Method\ returns\ the\ Affilliation\ fees\ of\ the\ booking\r\n\ @return\ affiliation_fees\r\n
+comment6.params=
+comment6.target=java.lang.String\ getSportName()
+comment6.text=\r\n\ Method\ returns\ the\ Sport\ Name\ \r\n\ @return\ sportName\r\n
+comment7.params=
+comment7.target=java.util.ArrayList\ getAllCourts()
+comment7.text=\r\n\ Method\ returns\ the\ collection\ of\ courts\ object\r\n\ @return\ courts\r\n
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment8.text=\r\n\ Method\ returns\ the\ Object\ details\ of\ the\ Sport\r\n\ @return\ Sport\ Details.\r\n
+numComments=9

@@ -1,0 +1,2 @@
+// this is a comment, ignore
+// name, usagefee, insurance, affiliation fees, then court numbers

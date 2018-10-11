@@ -1,0 +1,5 @@
+// this is a comment, ignore
+// name, usagefee, insurance, affiliation fees, then court numbers
+Tennis,44,10,93,10,11,12,13,14,15,16
+Squash,165,10,27,1,2,3,4
+BasketBall,23,10,45,5,6,7

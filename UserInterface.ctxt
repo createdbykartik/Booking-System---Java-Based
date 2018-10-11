@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=swinClub
+comment0.target=UserInterface(Club)
+comment1.params=
+comment1.target=void\ run()
+comment1.text=\r\n\ Method\ run\ is\ a\ switch\ case\ that\ holds\ the\ methods\ and\ delivers\ the\ output\ the\ user\ wants.\ \r\n
+comment2.params=
+comment2.target=int\ menu()
+comment2.text=\r\n\ Method\ menu\ displays\ the\ options\ to\ the\ users\ with\ user\ can\ interact.\r\n\ @return\ KeyBoard.getInteger\r\n\ \r\n
+comment3.params=
+comment3.target=void\ showAvailableCourts()
+comment3.text=\r\n\ Method\ showAvailableCourts\ takes\ in\ sport\ name,\ booking\ date\ and\ duration\ for\ which\ member\ wants\ to\ book\ a\ court\ and\ displays\ which\ courts\ are\ available\ on\ the\ given\ time.\r\n\ @param\ int\ counter\ is\ flag\ variable\ that\ traversers\ till\ all\ inputs\ are\ met\ and\ end\ as\ soon\ as\ the\ counter\ reaches\ 8\r\n\ @param\ tempGame\ used\ to\ store\ the\ sport\ user\ wants\ to\ play\r\n\ @param\ tempBookingDatenTime\ stores\ in\ the\ booking\ date\ and\ time\ \r\n\ @param\ timeFormat\ is\ a\ datetimeformatter\ variable\ that\ helps\ parse\ the\ data\ in\ a\ given\ format\r\n\ @param\ dateTime\ holds\ the\ formatted\ date\ and\ time\ of\ the\ booking\ user\ wants\ to\ make\r\n\ @param\ tempDuration\ holds\ the\ total\ duration\ user\ wants\ to\ play\ the\ sport\r\n\ @param\ endTime\ holds\ the\ end\ time\ of\ the\ booking\ made\ by\ the\ user.\r\n\ \r\n
+comment4.params=
+comment4.target=void\ makeBooking()
+comment4.text=\r\n\ Method\ showAvailableCourts\ takes\ in\ sport\ name,\ booking\ date\ and\ duration\ for\ which\ member\ wants\ to\ book\ a\ court\ and\ displays\ which\ courts\ are\ available\ on\ the\ given\ time.\r\n\ Once\ All\ Conditions\ are\ met,\ court\ is\ booked\ for\ the\ sport\ member\ wishes\ to\ play.\r\n\ @param\ tempGame\ used\ to\ store\ the\ sport\ user\ wants\ to\ play\r\n\ @param\ tempBookingDatenTime\ stores\ in\ the\ booking\ date\ and\ time\ \r\n\ @param\ timeFormat\ is\ a\ datetimeformatter\ variable\ that\ helps\ parse\ the\ data\ in\ a\ given\ format\r\n\ @param\ dateTime\ holds\ the\ formatted\ date\ and\ time\ of\ the\ booking\ user\ wants\ to\ make\r\n\ @param\ tempDuration\ holds\ the\ total\ duration\ user\ wants\ to\ play\ the\ sport\r\n\ @param\ endTime\ holds\ the\ end\ time\ of\ the\ booking\ made\ by\ the\ user.\r\n\ @param\ doesPlay\ is\ a\ flag\ variable\ that\ sets\ to\ true\ if\ member\ plays\ the\ sport.\r\n\ \r\n
+comment5.params=
+comment5.target=void\ showMemberBookings()
+comment5.text=\r\n\ Takes\ in\ the\ member\ ID\ and\ searches\ for\ the\ members,\ when\ found\ displays\ the\ bookings\ made\ by\ that\ member\r\n\ @param\ memberId\ is\ integer\ that\ holds\ the\ member\ ID.\r\n\ @param\ aBook\ is\ instance\ of\ type\ booking\ and\ it\ loops\ through\ collection\ of\ booking\ details\ and\ prints\ the\ details\ required.\r\n\ \r\n
+comment6.params=
+comment6.target=void\ showCourtBookings()
+comment6.text=\r\n\ Takes\ in\ the\ court\ ID\ and\ searches\ for\ the\ courtss,\ when\ found\ displays\ the\ bookings\ made\ in\ that\ court.\r\n\ @param\ memberId\ is\ integer\ that\ holds\ the\ member\ ID.\r\n\ @param\ aBook\ is\ instance\ of\ type\ booking\ and\ it\ loops\ through\ collection\ of\ booking\ details\ and\ prints\ the\ details\ required.\r\n\ \r\n
+comment7.params=
+comment7.target=void\ deleteBooking()
+comment7.text=\r\n\ Method\ deleteBooking\ takes\ in\ the\ member\ ID\ to\ search\ for\ the\ member\ whose\ bookings\ are\ supposed\ to\ deleted.\ \r\n\ Once\ found\ the\ booking\ object\ of\ that\ member\ is\ removed\ from\ the\ collection\ of\ bookings.\r\n\ @param\ memberId\ stores\ the\ member\ ID\r\n\ @param\ tempDeleteId\ stores\ the\ member\ ID\ whose\ details\ are\ being\ deleted.\ \r\n\ \r\n
+numComments=8

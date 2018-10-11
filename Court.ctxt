@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=cNumber
+comment0.target=Court(int)
+comment1.params=
+comment1.target=int\ getCourtId()
+comment1.text=\r\n\ Method\ returns\ the\ court\ ID\r\n\ @return\ courtNumber\r\n
+comment2.params=b
+comment2.target=void\ addBooking(Booking)
+comment2.text=\r\n\ Method\ adds\ booking\ to\ the\ collection\r\n\ @param\ Booking\ b\ \r\n
+comment3.params=
+comment3.target=java.util.ArrayList\ getBookings()
+comment3.text=\r\n\ Method\ holds\ the\ collection\ of\ court\ bookings.\r\n@return\ courtBookings.\r\n\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ \ Method\ returns\ the\ object\ value\ in\ form\ of\ a\ string.\r\n\ \ return\ courtNumber\r\n
+numComments=5
